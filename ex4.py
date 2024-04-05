@@ -40,8 +40,11 @@ for i in range(3):
     for j in range(3):
         soma = matrizA[i][j] + matrizB[i][j]
         matrizC[i].append(soma)
-print('Matriz A: ', matrizA)
+for linha in matrizA:
+    print(linha)
 print(' + ')
-print('Matriz B: ', matrizB)
+for linha in matrizB:
+    print(linha)
 print(' = ')
-print('Matriz Soma: ', matrizC)
+for linha in matrizC:
+    print(linha)
