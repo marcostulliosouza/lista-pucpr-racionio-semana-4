@@ -13,5 +13,6 @@ for i in range(3):
         maior = max(nums)
         matriz[i].append(maior)
         nums.remove(maior)
+    matriz[i].sort()
 for linha in matriz:
     print(linha)
